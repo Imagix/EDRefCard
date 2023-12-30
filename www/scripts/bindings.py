@@ -891,7 +891,6 @@ def parseBindings(runId, xml, displayGroups, errors):
         <p>Possibly you submitted the wrong file, or hand-edited it and made a mistake.</p>''' % html.escape(str(e), quote=True)
         xml = '<root></root>'
         tree = etree.fromstring(bytes(xml, 'utf-8'), parser=parser)
-    
     physicalKeys = {}
     modifiers = {}
     hotasModifierNum = 1
@@ -1196,7 +1195,6 @@ def processForm(form):
 
     if mode is Mode.replay or mode is Mode.generate:
         (physicalKeys, modifiers, devices) = parseBindings(runId, xml, displayGroups, errors)
-        
         alreadyHandledDevices = []
         createdImages = []
         for supportedDeviceKey, supportedDevice in supportedDevices.items():
@@ -1248,7 +1246,7 @@ def processForm(form):
     printHTML(mode, options, config, public, createdImages, deviceForBlockImage, errors)
 
 def logError(message):
-    sys.stderr.write("EDRefCard: %s", message)
+    sys.stderr.write(f"EDRefCard: {message}")
 
 def main():
     cgitb.enable()

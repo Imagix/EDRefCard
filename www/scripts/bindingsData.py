@@ -54,6 +54,7 @@ supportedDevices = OrderedDict([
     ('VKB-Kosmosima-SCG-Right', {'Template': 'vkb-kosmosima-scg-right', 'HandledDevices': ['231D0126']}),
     ('VKB-Gladiator-NXT-Premium-Right', {'Template': 'vkb-gladiator-nxt-premium-right', 'HandledDevices': ['231D0200']}),
     ('VKB-Gladiator-NXT-Premium-Left', {'Template': 'vkb-gladiator-nxt-premium-left', 'HandledDevices': ['231D0201']}),
+    ('VKB-STECS', {'Template': 'vkb-stecs', 'HandledDevices': ['231D012D']}),
     ('Keyboard', {'Template': 'keyboard', 'HandledDevices': ['Keyboard']})
 ])
 
@@ -2533,6 +2534,75 @@ hotasDetails = {
         'Joy_POV1Right': {'Type': 'Digital', 'x': 2616, 'y': 664, 'width': 918, 'height': 56}, # A1 POV Switch right
         'Joy_POV1Down': {'Type': 'Digital', 'x': 2616, 'y': 730, 'width': 918, 'height': 56}, # A1 POV Switch down
         'Joy_POV1Left': {'Type': 'Digital', 'x': 2616, 'y': 796, 'width': 918, 'height': 56}, # A1 POV Switch left
+    },
+    '231D012D': { # VKB STECSt
+        'displayName': 'VKB STECS',
+        'Joy_1': {'Type': 'Digital', 'x': 2692, 'y': 1390, 'width': 842, 'height': 56}, # White Button
+        'Joy_2': {'Type': 'Digital', 'x': 2692, 'y': 1452, 'width': 842, 'height': 56}, # Red Button
+        'Joy_3': {'Type': 'Digital', 'x': 2616, 'y': 1018, 'width': 918, 'height': 56}, # White Dial 1
+        'Joy_4': {'Type': 'Digital', 'x': 374, 'y': 546, 'width': 918, 'height': 56}, # White Dial 2
+        'Joy_5': {'Type': 'Digital', 'x': 2616, 'y': 2028, 'width': 918, 'height': 56}, # White Dial 3
+        'Joy_6': {'Type': 'Digital', 'x': 374, 'y': 1136, 'width': 918, 'height': 56}, # White Dial 4
+        'Joy_7': {'Type': 'Digital', 'x': 374, 'y': 1196, 'width': 918, 'height': 56}, # White Dial 5
+        'Joy_8': {'Type': 'Digital', 'x': 374, 'y': 1258, 'width': 918, 'height': 56}, # Left Thumb Trigger
+        'Joy_9': {'Type': 'Digital', 'x': 374, 'y': 1320, 'width': 918, 'height': 56}, # Left Index Trigger
+        'Joy_10': {'Type': 'Digital', 'x': 374, 'y': 1382, 'width': 918, 'height': 56}, # Left Red Button
+        'Joy_11': {'Type': 'Digital', 'x': 374, 'y': 720, 'width': 918, 'height': 56}, # Left Button
+        'Joy_12': {'Type': 'Digital', 'x': 374, 'y': 786, 'width': 918, 'height': 56}, # Left Dial Up
+        'Joy_13': {'Type': 'Digital', 'x': 374, 'y': 850, 'width': 918, 'height': 56}, # Left Dial Down
+        'Joy_14': {'Type': 'Digital', 'x': 374, 'y': 916, 'width': 918, 'height': 56}, # Left Side Dial Forward
+        'Joy_15': {'Type': 'Digital', 'x': 374, 'y': 982, 'width': 918, 'height': 56}, # Left Side Dial Back
+        'Joy_16': {'Type': 'Digital', 'x': 2616, 'y': 1624, 'width': 918, 'height': 56}, # Right Thumb Trigger
+        'Joy_17': {'Type': 'Digital', 'x': 2616, 'y': 1690, 'width': 918, 'height': 56}, # Right Index Trigger
+        'Joy_18': {'Type': 'Digital', 'x': 2616, 'y': 1754, 'width': 918, 'height': 56}, # Right High Button
+        'Joy_19': {'Type': 'Digital', 'x': 2616, 'y': 1820, 'width': 918, 'height': 56}, # Right Ministick Push
+        'Joy_20': {'Type': 'Digital', 'x': 2616, 'y': 1886, 'width': 918, 'height': 56}, # BRK Push
+        'Joy_21': {'Type': 'Digital', 'x': 2692, 'y': 1158, 'width': 842, 'height': 56}, # Right Hat Push
+        'Joy_22': {'Type': 'Digital', 'x': 2692, 'y': 1220, 'width': 842, 'height': 56}, # Radio Click
+        'Joy_23': {'Type': 'Digital', 'x': 456, 'y': 1826, 'width': 842, 'height': 56}, # Right Low Button
+        'Joy_24': {'Type': 'Digital', 'x': 456, 'y': 1888, 'width': 842, 'height': 56}, # OP EXEC
+        'Joy_25': {'Type': 'Digital', 'x': 456, 'y': 1948, 'width': 842, 'height': 56}, # BRK Up
+        'Joy_26': {'Type': 'Digital', 'x': 456, 'y': 2010, 'width': 842, 'height': 56}, # BRK Down
+        'Joy_27': {'Type': 'Digital', 'x': 394, 'y': 1540, 'width': 902, 'height': 56}, # BRK Right
+        'Joy_28': {'Type': 'Digital', 'x': 394, 'y': 1600, 'width': 902, 'height': 56}, # BRK Left
+        'Joy_29': {'Type': 'Digital', 'x': 394, 'y': 1662, 'width': 902, 'height': 56}, # Right Hat Left
+        'Joy_30': {'Type': 'Digital', 'x': 394, 'y': 1662, 'width': 902, 'height': 56}, # Right Hat Right
+        'Joy_31': {'Type': 'Digital', 'x': 394, 'y': 1662, 'width': 902, 'height': 56}, # Right Hat Down
+        'Joy_32': {'Type': 'Digital', 'x': 394, 'y': 1662, 'width': 902, 'height': 56}, # Right Hat Up
+        'Joy_XAxis': {'Type': 'Analogue', 'x': 1598, 'y': 320, 'width': 758, 'height': 56}, # Right Throttle
+        'Joy_YAxis': {'Type': 'Analogue', 'x': 1598, 'y': 382, 'width': 758, 'height': 56}, # Left Throttle
+        'Joy_ZAxis': {'Type': 'Analogue', 'x': 1598, 'y': 446, 'width': 758, 'height': 56}, # Right Dial
+        'Joy_RXAxis': {'Type': 'Analogue', 'x': 1598, 'y': 508, 'width': 758, 'height': 56}, # Right Ministick R x
+        'Joy_RYAxis': {'Type': 'Analogue', 'x': 1598, 'y': 572, 'width': 758, 'height': 56}, # Right Ministick R y
+    },
+    '231D012D': { # VKB STECS VC 1t
+        'displayName': 'VKB STECS VC 1',
+        'Joy_1': {'Type': 'Digital', 'x': 2692, 'y': 1390, 'width': 842, 'height': 56}, # Radio Down
+        'Joy_2': {'Type': 'Digital', 'x': 2692, 'y': 1452, 'width': 842, 'height': 56}, # Radio Up
+        'Joy_3': {'Type': 'Digital', 'x': 2616, 'y': 1018, 'width': 918, 'height': 56}, # A1
+        'Joy_4': {'Type': 'Digital', 'x': 374, 'y': 546, 'width': 918, 'height': 56}, # A2
+        'Joy_5': {'Type': 'Digital', 'x': 2616, 'y': 2028, 'width': 918, 'height': 56}, # C1
+        'Joy_6': {'Type': 'Digital', 'x': 374, 'y': 1136, 'width': 918, 'height': 56}, # B1
+        'Joy_7': {'Type': 'Digital', 'x': 374, 'y': 1196, 'width': 918, 'height': 56}, # B2
+        'Joy_8': {'Type': 'Digital', 'x': 374, 'y': 1258, 'width': 918, 'height': 56}, # B3
+        'Joy_9': {'Type': 'Digital', 'x': 374, 'y': 1320, 'width': 918, 'height': 56}, # B4
+        'Joy_10': {'Type': 'Digital', 'x': 374, 'y': 1382, 'width': 918, 'height': 56}, # B5
+        'Joy_11': {'Type': 'Digital', 'x': 374, 'y': 720, 'width': 918, 'height': 56}, # SW1 Up
+        'Joy_12': {'Type': 'Digital', 'x': 374, 'y': 786, 'width': 918, 'height': 56}, # SW1 Button
+        'Joy_13': {'Type': 'Digital', 'x': 374, 'y': 850, 'width': 918, 'height': 56}, # SW1 Down
+        'Joy_14': {'Type': 'Digital', 'x': 374, 'y': 916, 'width': 918, 'height': 56}, # SW2 Up
+        'Joy_15': {'Type': 'Digital', 'x': 374, 'y': 982, 'width': 918, 'height': 56}, # SW2 Button
+        'Joy_16': {'Type': 'Digital', 'x': 2616, 'y': 1624, 'width': 918, 'height': 56}, # SW2 Down
+        'Joy_17': {'Type': 'Digital', 'x': 2616, 'y': 1690, 'width': 918, 'height': 56}, # TGL UP
+        'Joy_18': {'Type': 'Digital', 'x': 2616, 'y': 1754, 'width': 918, 'height': 56}, # TGL DOWN
+        'Joy_19': {'Type': 'Digital', 'x': 2616, 'y': 1820, 'width': 918, 'height': 56}, # EN1 Left
+        'Joy_20': {'Type': 'Digital', 'x': 2616, 'y': 1886, 'width': 918, 'height': 56}, # EN1 Right
+        'Joy_21': {'Type': 'Digital', 'x': 2692, 'y': 1158, 'width': 842, 'height': 56}, # EN2 Left
+        'Joy_22': {'Type': 'Digital', 'x': 2692, 'y': 1220, 'width': 842, 'height': 56}, # EN2 Right
+        'Joy_23': {'Type': 'Digital', 'x': 456, 'y': 1826, 'width': 842, 'height': 56}, # EN1 Click
+        'Joy_24': {'Type': 'Digital', 'x': 456, 'y': 1888, 'width': 842, 'height': 56}, # EN2 Click
+        'Joy_25': {'Type': 'Digital', 'x': 456, 'y': 1948, 'width': 842, 'height': 56}, # 3-Position Switch Up
+        'Joy_26': {'Type': 'Digital', 'x': 456, 'y': 2010, 'width': 842, 'height': 56}, # 3-Position Switch Down
     },
 }
 
